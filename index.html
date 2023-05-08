@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido a mi página</title>
+
+    <style>
+        body {
+            background-color: #ccc;
+            background-image: url("https://static8.depositphotos.com/1154062/1071/v/450/depositphotos_10712741-stock-illustration-white-crumpled-abstract-background.jpg");
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: -200px;
+            height: 100%;
+            width: 200px;
+            background-color: #ebac59;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        body:hover nav {
+            left: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            padding: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ebac59;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+
+        .main-content {
+            flex-basis: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pagina1.html">Curriculum Vitae</a></li>
+            <li><a href="pagina2.html">Página 2</a></li>
+            <li><a href="pagina3.html">Página 3</a></li>
+            <li><a href="pagina4.html">Página 4</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <!-- Contenido de la página aquí -->
+        </div>
+    </div>
+</body>
+</html>
