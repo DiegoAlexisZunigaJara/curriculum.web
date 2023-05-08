@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Enlaces</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			padding: 20px 0;
+			position: relative;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			font-weight: normal;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+		.textbox {
+			margin: 20px 0;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 100%;
+			box-sizing: border-box;
+			background-color: #f7f7f7;
+			text-align: center;
+		}
+
+		.textbox h2 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: normal;
+		}
+
+		button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+
+		button:hover {
+			background-color: #555;
+		}
+
+		@media only screen and (max-width: 768px) {
+			header {
+				padding: 10px 0;
+			}
+
+			h1 {
+				font-size: 24px;
+			}
+
+			.container {
+				padding: 20px;
+			}
+
+			.textbox {
+				margin: 10px 0;
+			}
+
+			button {
+				margin-top: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Enlaces</h1>
+	</header>
+	<div class="container">
+		<div class="textbox">
+			<h2>Texto 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in mi elit. </p>
+		</div>
+		<div class="textbox">
+			<h2>Texto 2</h2>
+			<p>Phasellus eget dolor blandit, auctor ex vitae, ultricies quam. </p>
+		</div>
+		<div class="textbox">
+			<h2>Texto 3</h2>
+			<p>Suspendisse vel ex sed dolor convallis elementum. </p>
+		</div>
+		<div class="textbox">
+			<h2>Texto 4</h2>
+			<p>Aliquam in risus vel felis ultrices bibendum nec eget est. </p>
+		</div>
+		<button onclick="location.href='principal.html'">Regresar a la página principal</button>
+	</div>
+</body>
+</html>
